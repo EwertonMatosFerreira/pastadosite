@@ -49,10 +49,12 @@ header{
 
 .logo{
     width: 25%;    
+    text-align: center;
 }
 
 .logo img{
     width: 170px;
+
   
 }
 
@@ -77,6 +79,17 @@ header{
     border-radius: 30px;
     background-color: var(--cor4);
 }
+
+.menu nav ul a{
+    display: none;
+}
+
+.menu nav ul a:hover{
+    display: block;
+   
+}
+
+
 
 main {
     padding-top: 30px;;
